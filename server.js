@@ -95,7 +95,7 @@ app.get('/test', verifyJWT, (req, res) => {
 });
 
 app.get('/api/categories', verifyJWT, (req, res) => {
-  const API_KEY = '264bb09ec4d858065cfb8860838a32ff'; 
+  const API_KEY = ''; 
 
   const categories = [
     {
