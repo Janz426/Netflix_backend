@@ -95,7 +95,12 @@ app.get('/test', verifyJWT, (req, res) => {
 });
 
 app.get('/api/categories', verifyJWT, (req, res) => {
-  const API_KEY = ''; 
+  
+  // Augusto adicionar a sua chave API KEY abaixo:
+  
+  const API_KEY = 'AQUI'; 
+
+
 
   const categories = [
     {
